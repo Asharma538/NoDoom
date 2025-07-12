@@ -1,6 +1,7 @@
 # No Doom - Social Media Blocker
 
 A Chrome extension that blocks access to popular social media sites to help improve productivity and focus.
+PS: My first extension :)
 
 ## Overview
 
