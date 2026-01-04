@@ -18,6 +18,7 @@ No Doom is a browser extension designed to block distracting social media websit
   - X (formerly Twitter)
   - TikTok
   - Pinterest
+  - YouTube
 - **Persistent Settings**: Blocking state is saved and restored across browser sessions
 - **Clean Interface**: Simple popup with toggle button
 - **Immediate Effect**: Changes take effect immediately without requiring page refresh
