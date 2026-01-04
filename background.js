@@ -70,7 +70,7 @@ chrome.webNavigation.onBeforeNavigate.addListener((details) => {
   url: [
     { hostContains: 'x.com' },
     { hostContains: 'twitter.com' },
-    { hostContains: 'youtube.com' }
+    { hostContains: 'youtube.com' },
     // { hostContains: 'instagram.com' },
     // { hostContains: 'facebook.com' },
     // { hostContains: 'reddit.com' },
