@@ -12,7 +12,8 @@ const URLS_TO_BLOCK = [
   "*://*.twimg.com/*",          // X media (images/videos)
   "*://*.tiktok.com/*",
   "*://*.snapchat.com/*",
-  "*://*.pinterest.com/*"
+  "*://*.pinterest.com/*",
+  "*://*.youtube.com/*"
 ];
 
 
@@ -69,6 +70,7 @@ chrome.webNavigation.onBeforeNavigate.addListener((details) => {
   url: [
     { hostContains: 'x.com' },
     { hostContains: 'twitter.com' },
+    { hostContains: 'youtube.com' },
     // { hostContains: 'instagram.com' },
     // { hostContains: 'facebook.com' },
     // { hostContains: 'reddit.com' },
